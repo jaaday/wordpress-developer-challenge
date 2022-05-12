@@ -1,0 +1,395 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: "Circular Spotify Tx T Black";
+}
+
+h1 {
+	color: #FFFFFF !important;
+}
+
+h2 {
+	color: #FF0000 !important;
+	margin-bottom: 34px;
+	font-size: 40px;
+	line-height: 100px;
+    letter-spacing: -1px;
+}
+
+.titulo-section{
+	width: 100%;
+}
+
+.navbar{
+	height: -webkit-fill-available;
+    height: inherit;
+	max-width: 1640px;
+    margin: 0 auto;
+}
+
+.menu a, li{
+	list-style-type: none;
+	text-decoration: none;
+	font-family: "Circular Spotify Tx T Med" !important;
+	font-size: 19px !important;
+	color: #FFFFFF !important;
+	line-height: 27px;
+	letter-spacing: 0.57px;
+}
+
+.navbar-brand .img-fluid {
+ width: 104px !important;
+ height: 33px !important;
+}
+
+.my-header {
+	background: #000000E6 0% 0% no-repeat padding-box;
+	opacity: 1;
+	height: 92px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.top-destaque {
+  position: relative;
+  overflow: hidden;
+  min-height: 1000px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
+
+.top-filtro {
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.corpo-destaque{
+  width: 99%;
+  max-width: 1640px;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.conte-video{
+	width: 99%;
+	max-width: 1083px;
+	margin: 0 auto;
+}
+
+.desc-video{
+	width: 99%;
+	max-width: 944px;
+}
+
+.desc-video p{
+	font-family: "Circular Spotify Tx T Med" !important;
+	font-size: 18px !important;
+	color: #FFFFFF !important;
+	line-height: 35px;
+	letter-spacing: 0.54px;
+}
+
+.conte-video h2{
+	font-family: "Circular Spotify Tx T Black";
+	font-size: 70px !important;
+	color: #FFFFFF !important;
+	line-height: 100px;
+	letter-spacing: -2.8px;
+}
+
+.titulo-destaque{
+  font-size: 100px !important;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  width: 50%;
+  line-height: 100px;
+  letter-spacing: -4px;
+}
+
+.botao-destaque{
+	width: 310px;
+	height: 64px;
+	background: #FF0000 !important;
+	border-radius: 3px;
+	display: flex;
+}
+
+.botao-destaque a{
+	text-decoration: none;
+	margin: auto;
+	color: #FFFFFF !important;
+	font-size: 18px;
+    letter-spacing: 0.54px;
+	font-family: "Circular Spotify Tx T Med" !important;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.cards {
+	margin-right: 30px;
+}
+
+.cards img{
+  width: 248px;
+  height: 387px;
+  object-fit: cover;
+}
+
+.cont-duracao{
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF !important;
+	border-radius: 3px;
+	opacity: 1;
+	width: 128px;
+	height: 32px;
+	margin-top: 27px;
+	margin-bottom: 15px;
+}
+
+.cont-cate{
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF !important;
+	border-radius: 3px;
+	opacity: 1;
+	width: 128px;
+	height: 32px;
+	margin-top: 27px;
+	margin-bottom: 15px;
+}
+
+.cont-cate p{
+	color: #000000 !important;
+}
+
+.cont-duracao p{
+	margin-bottom: 0px;
+	margin-top: 4px;
+	font-family: "Circular Spotify Tx T Med" !important;
+	text-align: center;
+}
+
+.cards-title {
+	color: #FFFFFF !important;
+	font-size: 30px;
+	line-height: 30px;
+    letter-spacing: -0.3px;
+}
+
+.cont-video{
+	
+}
+
+.cont-video iframe{
+	width: 100%;
+	height: 920px;
+	margin-bottom: 90px;
+}
+
+#rodape {
+  width: 100%;
+  height: 385px;
+  padding-left: 1%;
+  margin-bottom: 0px;
+  bottom: 0;
+  background-color: #121212;
+}
+
+footer p{
+  margin-bottom: 0px !important;
+}
+
+body > header > h1 > a {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+article > header {
+}
+
+footer {
+  margin-top: 4px;
+}
+
+.conteudo-footer{
+	width: 99%;
+	max-width: 1640px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.conteudo-footer p{
+	margin-top: 30px;
+	color: #FFFFFF !important;
+	font-size: 18px;
+    letter-spacing: 0.54px;
+	font-family: "Circular Spotify Tx T Med" !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  width: 99%;
+  max-width: 1640px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.content-area {
+  display: flex;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+  display: flex;
+}
+
+.primary-sidebar {
+  width: 25%;
+  padding: 1%;
+  vertical-align: top;
+  background-color: #ececec;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-full {
+  width: 99%;
+  padding: 1%;
+}
+
+.article-loop,
+.article-full {
+  display: inline-block;
+  padding-top: 50px;
+  vertical-align: top;
+  background-color: #000;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 800px){
+  .article-loop {
+    width: 99%;
+  }
+  .cards {
+	width: 100% !important;
+  }
+  .cards img{
+	  width: auto;
+	  height: 232px;
+	  object-fit: cover;
+	}
+	body{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.cards-title {
+		color: #FFFFFF !important;
+		font-size: 20px;
+		line-height: 20px;
+		letter-spacing: -0.2px;
+	}
+	.titulo-destaque{
+		font-size: 40px !important;
+		margin-top: 35px;
+		margin-bottom: 30px;
+		width: 100%;
+		line-height: 40px;
+		letter-spacing: -1.16px;
+	}
+	.top-destaque, .top-filtro {
+		min-height: 580px !important;
+	}
+	.botao-destaque{
+		width: 180px;
+		height: 38px;
+	}
+	.botao-destaque a{
+		font-size: 12px;
+		letter-spacing: 0.36px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .content-area,
+  .primary-sidebar {
+    width: 100%;
+	display: block;
+  }
+  .cards {
+	width: 100% !important;
+  }
+  .cards img{
+	  width: auto;
+	  height: 232px;
+	  object-fit: cover;
+	}
+	body{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.cards-title {
+		color: #FFFFFF !important;
+		font-size: 20px;
+		line-height: 20px;
+		letter-spacing: -0.2px;
+	}
+	.titulo-destaque{
+		font-size: 40px !important;
+		margin-top: 35px;
+		margin-bottom: 30px;
+		width: 100%;
+		line-height: 40px;
+		letter-spacing: -1.16px;
+	}
+	.top-destaque, .top-filtro {
+		min-height: 580px !important;
+	}
+	.botao-destaque{
+		width: 180px;
+		height: 38px;
+	}
+	.botao-destaque a{
+		font-size: 12px;
+		letter-spacing: 0.36px;
+	}
+}
+
